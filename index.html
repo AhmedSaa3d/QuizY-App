@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizy App</title>
+    <meta name="Author" content="Ahmed Saad">
+    <meta name="description" content="THis show simple Quiz App For Students">
+    <link rel="icon" href="Images/site_icon.png">
+    <!--Font Awesome V6.4.0-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--Main tempalte css file-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Render all elements normally normalize.css v8.0.1-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Work sans google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <!-- Start Quiz App -->
+    <div class="container">
+        <div class="quiz-app">
+            <div class="quiz-info">
+                <div class="category dis-none">Category: <span></span></div>
+                <div class="appName">QuizY App</div>
+                <div class="count dis-none">Questions Count: <span>7</span></div>
+            </div>
+            <div class="bullets">
+                <div class="spans dis-none"></div>
+                <div class="select">Select Your Exam</div>
+                <div class="countdown dis-none"></div>
+            </div>
+                <div class="exams">
+                    <div class="exam" data-path="Html-Questions">
+                        <img src="Images/html5.png" alt="">
+                    </div>
+                    <div class="exam" data-path="Css-Questions">
+                        <img src="Images/css3.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="question-area dis-none">
+                    <div class="title-area"></div>
+                    <div class="answers-area"></div>
+                    <button class="submit-button btn">Submit Answer</button>
+                </div>
+                <div class="results-area">
+                    <div class="result"></div>
+                    <div class="btn-again"></div>
+                </div>
+
+            <!-- <div class="results"></div> -->
+        </div>
+    </div>
+ <!-- End Quiz App -->
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
