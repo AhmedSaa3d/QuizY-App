@@ -1,0 +1,73 @@
+[
+    {
+      "title": "CSS stands for",
+      "choses": ["Cascade style sheets",
+       "Color and style sheets",
+       "Cascading style sheets","None of the above"],
+      "right_answer": "Cascading style sheets"
+    },
+    {
+      "title": "Which of the following is the correct syntax for referring the external style sheet?",
+      "choses": ["<style src = example.css>",
+       "<style src = \"example.css\" >",
+       "<stylesheet> example.css </stylesheet>",
+       "<link rel=\"stylesheet\" type=\"text/css\" href=\"example.css\">"],
+      "right_answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"example.css\">"
+    },
+    {
+      "title": "The property in CSS used to change the background color of an element is",
+      "choses": ["bgcolor",
+       "color",
+       "background-color",
+       "All Answers Is Right"],
+      "right_answer": "background-color"
+    },
+    {
+      "title": "The property in CSS used to change the text color of an element is",
+      "choses": ["bgcolor",
+       "color",
+       "background-color",
+       "All Answers Is Right"],
+      "right_answer": "color"
+    },
+    {
+      "title": "The CSS property used to control the element's font-size is",
+      "choses": ["text-style",
+       "text-size",
+       "font-size",
+       "None of the answers"],
+      "right_answer": "font-size"
+    },
+    {
+      "title": "The HTML attribute used to define the inline styles is",
+      "choses": ["style",
+       "styles",
+       "class",
+       "None of the answers"],
+      "right_answer": "style"
+    },
+    {
+      "title": "The HTML attribute used to define the internal stylesheet is",
+      "choses": ["<style>",
+       "style",
+       "<link>",
+       "<script>"],
+      "right_answer": "<style>"
+    },
+    {
+      "title": "Which of the following CSS property is used to set the background image of an element?",
+      "choses": ["background-attachment",
+       "background-image",
+       "background-color",
+       "None of the answers"],
+      "right_answer": "background-image"
+    },
+    {
+      "title": "Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?",
+      "choses": ["p {background-color : yellow;}",
+       "p {background-color : #yellow;}",
+       "all {background-color : yellow;}",
+       "all p {background-color : #yellow;}"],
+      "right_answer": "p {background-color : yellow;}"
+    }
+  ]
